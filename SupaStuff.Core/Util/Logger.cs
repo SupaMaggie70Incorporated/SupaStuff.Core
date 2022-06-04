@@ -84,6 +84,7 @@ namespace SupaStuff.Core.Util
             UnityDebug.LogError = error;
             UnityDebug.LogErrorContext = errorContext;
             UnityDebug.LogWarningContext = warnContext;
+            isUnity = true;
         }
         /// <summary>
         /// Creates a logger with the name
